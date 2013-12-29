@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="5dp" >
+
+    <ImageView
+        android:id="@+id/imgThumb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/descriptionBusImg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/obus_normal" />
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/imgThumb"
+        android:layout_toRightOf="@id/imgThumb"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:textIsSelectable="false"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/routeDestination"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imgThumb"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/imgThumb"
+        android:scrollHorizontally="true"
+        android:singleLine="true"  
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">travvik</string>
+    <string name="action_settings">Settings</string>
+    <string name="descriptionBusImg">Picture of a OC Transpo bus.</string>
+    <string name="getNewTimeTable">Get upcoming times.</string>
+    <string name="StopNum">Stop#</string>
+    <string name="FindStop">Find nearest stop</string>
+    <string name="BusNum">Bus#</string>
+    <string name="title_activity_bus_geo_location_map">BusGeoLocationMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bus_location_web_view">BusLocationWebView</string>
+    <string name="title_activity_where_is_my_bus">Current Bus GPS Coordinates</string>
+    <string name="app_description">OC Transpo Bus Predictor</string>
+
+</resources>
